@@ -1,0 +1,6 @@
+step 1: make all files needed (ReverseModule.idl,ReverseImpl.java,ReverseServer.java,ReverseClient.java)
+step 2:idlj -fall ReverseModule.idl
+step 3: javac *.java /ReverseModule/*.java
+step 4:tnameserve -ORBInitialPort 3000
+step 5:java ReverseServer -ORBInitialPort 3000 -ORBInitialHost localhost
+step 6:java ReverseClient -ORBInitialPort 3000 -ORBInitialHost localhost
