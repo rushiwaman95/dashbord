@@ -46,3 +46,5 @@ interface Service extends java.rmi.Remote {
 // 4)Open another cmd prompt 
 // 5)`javac Client.java`
 // 6)`java Client`
+
+//for ass 6 "Set-ExecutionPolicy Unrestricted" command
